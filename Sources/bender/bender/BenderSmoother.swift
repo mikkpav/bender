@@ -9,7 +9,7 @@
 import UIKit
 
 public class BenderSmoother {
-    func whatIsLife(name: String) -> String {
+    public func whatIsLife(name: String) -> String {
         return "Life is \(name)"
     }
 }
