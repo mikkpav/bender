@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "bender",
             dependencies: [],
-            exclude: ["Utils.m, Utils.h"]),
+            exclude: ["Sources/bender/bender/Utils.m, Sources/bender/bender/Utils.h"]),
         .testTarget(
             name: "benderTests",
             dependencies: ["bender"]),
