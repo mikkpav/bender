@@ -15,8 +15,8 @@
 
 /* Begin PBXFileReference section */
 		4238FA9324E3DC8D00948DBF /* BenderSmoother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenderSmoother.swift; sourceTree = "<group>"; };
-		4238FA9B24E3DF1700948DBF /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		423C559424E3DFDB00469DC5 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		4238FA9B24E3DF1700948DBF /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Excluded/Utils.h; sourceTree = "<group>"; };
+		423C559424E3DFDB00469DC5 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Excluded/Utils.m; sourceTree = "<group>"; };
 		427F7D2024E2DBBB006C0C73 /* bender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		427F7D2324E2DBBB006C0C73 /* bender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bender.h; sourceTree = "<group>"; };
 		427F7D2424E2DBBB006C0C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
