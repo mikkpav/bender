@@ -20,7 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "bender",
-            dependencies: []),
+            dependencies: [],
+            exclude: ["Utils.m, Utils.h"]),
         .testTarget(
             name: "benderTests",
             dependencies: ["bender"]),
