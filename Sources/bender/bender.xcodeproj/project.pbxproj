@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4238FA9424E3DC8D00948DBF /* BenderSmoother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238FA9324E3DC8D00948DBF /* BenderSmoother.swift */; };
+		4238FA9C24E3DF1700948DBF /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4238FA9B24E3DF1700948DBF /* Utils.h */; };
+		423C559524E3DFDB00469DC5 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 423C559424E3DFDB00469DC5 /* Utils.m */; };
 		427F7D2524E2DBBB006C0C73 /* bender.h in Headers */ = {isa = PBXBuildFile; fileRef = 427F7D2324E2DBBB006C0C73 /* bender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4238FA9324E3DC8D00948DBF /* BenderSmoother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenderSmoother.swift; sourceTree = "<group>"; };
+		4238FA9B24E3DF1700948DBF /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		423C559424E3DFDB00469DC5 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		427F7D2024E2DBBB006C0C73 /* bender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		427F7D2324E2DBBB006C0C73 /* bender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bender.h; sourceTree = "<group>"; };
 		427F7D2424E2DBBB006C0C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 			children = (
 				427F7D2324E2DBBB006C0C73 /* bender.h */,
 				4238FA9324E3DC8D00948DBF /* BenderSmoother.swift */,
+				4238FA9B24E3DF1700948DBF /* Utils.h */,
+				423C559424E3DFDB00469DC5 /* Utils.m */,
 				427F7D2424E2DBBB006C0C73 /* Info.plist */,
 			);
 			path = bender;
@@ -62,6 +68,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4238FA9C24E3DF1700948DBF /* Utils.h in Headers */,
 				427F7D2524E2DBBB006C0C73 /* bender.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4238FA9424E3DC8D00948DBF /* BenderSmoother.swift in Sources */,
+				423C559524E3DFDB00469DC5 /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
