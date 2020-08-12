@@ -34,9 +34,7 @@ let package = Package(
                       "Excluded/Utils.h",
                       "Excluded/Utils.m",
                       "Utils.h",
-                      "Utils.m",
-                      "/Utils.h",
-                      "/Utils.m"]),
+                      "Utils.m"]),
         .testTarget(
             name: "benderTests",
             dependencies: ["bender"]),
