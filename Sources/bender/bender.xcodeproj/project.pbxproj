@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4238FA9424E3DC8D00948DBF /* BenderSmoother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238FA9324E3DC8D00948DBF /* BenderSmoother.swift */; };
 		427F7D2524E2DBBB006C0C73 /* bender.h in Headers */ = {isa = PBXBuildFile; fileRef = 427F7D2324E2DBBB006C0C73 /* bender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4238FA9324E3DC8D00948DBF /* BenderSmoother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenderSmoother.swift; sourceTree = "<group>"; };
 		427F7D2024E2DBBB006C0C73 /* bender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		427F7D2324E2DBBB006C0C73 /* bender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bender.h; sourceTree = "<group>"; };
 		427F7D2424E2DBBB006C0C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				427F7D2324E2DBBB006C0C73 /* bender.h */,
+				4238FA9324E3DC8D00948DBF /* BenderSmoother.swift */,
 				427F7D2424E2DBBB006C0C73 /* Info.plist */,
 			);
 			path = bender;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					427F7D1F24E2DBBB006C0C73 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4238FA9424E3DC8D00948DBF /* BenderSmoother.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		427F7D2924E2DBBB006C0C73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LU5KS57C96;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.banger.bender;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		427F7D2A24E2DBBB006C0C73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LU5KS57C96;
